@@ -1,0 +1,20 @@
+{
+    "name": "asb/middleware-pipe",
+    "description": "This is the pattern that Laravel uses for its HTTP Middleware as well as its internal Pipeline; each Middleware can execute its own logic before and after executing the next step ($next).",
+    "autoload": {
+        "psr-4": {
+            "Asb\\MiddlewarePipe\\": "src/"
+        }
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abouzar Rostami",
+            "email": "Abouzar.ros2020@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    }
+}
